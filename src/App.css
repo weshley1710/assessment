@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #4799d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #091e37;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4799d7;
+  color: #fff;
+  padding: 0.75rem 0.75rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: 81%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.iconsForAction{
+  display: flex;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #091e37;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  position: fixed;
+  top: 35px;
+  left: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.content {
+  margin-left: 250px;
+}
+
+.Sidebar {
+  width: 250px;
+  background-color: #f0f0f0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Sidebar li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.noUnderline{
+  text-decoration: none;
+  color: black;
+}
+
+.active{
+  color: #117dd0;
+}
+
+.logo{
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.wrapper {
+  background: #091e37;
+  padding: 2rem;
+  border-radius: 5px;
+  max-width: 768px;
+}
+
+.inhoud {
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+ @media screen and (max-width: 768px) {
+  .Sidebar {
+    width: 200px;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+
+  h2{
+    text-align: left;
+  }
+}

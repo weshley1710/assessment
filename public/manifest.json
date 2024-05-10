@@ -1,0 +1,24 @@
+{
+  "name": "Assessment: Mr. Winston",
+  "short_name": "Assessment",
+  "description": "Assessment voor sollicitatie van stage bij Mr. Winston",
+  "start_url": "index.html",
+  "background_color": "#3367D6",
+  "theme_color": "#3367D6",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+      {
+        "src": "icons/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "icons/android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ]
+}

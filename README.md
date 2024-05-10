@@ -6,10 +6,10 @@ Dit project is ontwikkeld als assessment voor de sollicitatie van een stage bij 
 
 ## Visueel
 Hierbij een screenshot van hoe de applicatie met de todo-list eruit ziet op desktop:
-![Desktop](./png)
+![Desktop](./assessment/public/desktop.png)
 
 Hierbij een screenshot van hoe de applicatie met de todo-list eruit ziet op mobiel:
-![Mobiel](./.png)
+![Mobiel](./assessment/public/mobiel.png)
 
 ## Installatie
 Het project bestaat uit React + Javascript. Om het project te kunnen laten draaien, zullen enkele onderdelen geïnstalleerd moeten worden. Namelijk de volgende:
